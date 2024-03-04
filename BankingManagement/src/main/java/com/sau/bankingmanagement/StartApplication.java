@@ -8,7 +8,7 @@ import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.stage.Stage;
 
-import java.io.IOException;
+import java.io.IOException;B
 
 public class StartApplication extends Application {
     @Override
