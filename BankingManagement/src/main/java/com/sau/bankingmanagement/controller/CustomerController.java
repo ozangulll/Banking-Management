@@ -1,8 +1,8 @@
-package com.example.dimsproject.controller;
+package com.sau.bankingmanagement.controller;
 
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
-import com.example.dimsproject.repository.CustomerRepository;
+import com.sau.bankingmanagement.repository.CustomerRepository;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;

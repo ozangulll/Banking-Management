@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="scenePane" maxHeight="350.0" maxWidth="552.0" minHeight="350.0" minWidth="552.0" prefHeight="350.0" prefWidth="552.0" styleClass="backgroundColor" stylesheets="@accountStyle.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dimsproject.controller.AccountController">
+<AnchorPane fx:id="scenePane" maxHeight="350.0" maxWidth="552.0" minHeight="350.0" minWidth="552.0" prefHeight="350.0" prefWidth="552.0" styleClass="backgroundColor" stylesheets="@accountStyle.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sau.bankingmanagement.controller.AccountController">
    <children>
       <Button layoutX="402.0" layoutY="90.0" mnemonicParsing="false" onAction="#accountFetchButtonAction" prefHeight="26.0" prefWidth="58.0" text="Fetch" />
       <Label layoutX="107.0" layoutY="90.0" prefHeight="26.0" prefWidth="72.0" text="Account Id:" />

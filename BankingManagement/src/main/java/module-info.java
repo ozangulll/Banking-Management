@@ -3,7 +3,7 @@ module com.sau.bankingmanagement {
     requires javafx.fxml;
     requires java.sql;
 
+    opens com.sau.bankingmanagement.controller to javafx.fxml;
 
-    opens com.sau.bankingmanagement to javafx.fxml;
-    exports com.sau.bankingmanagement;
+    exports com.sau.bankingmanagement to javafx.graphics;
 }

@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="scenePane" maxHeight="350.0" maxWidth="552.0" minHeight="350.0" minWidth="552.0" prefHeight="350.0" prefWidth="552.0" styleClass="backgroundColor" stylesheets="@customerStyle.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dimsproject.controller.CustomerController">
+<AnchorPane fx:id="scenePane" maxHeight="350.0" maxWidth="552.0" minHeight="350.0" minWidth="552.0" prefHeight="350.0" prefWidth="552.0" styleClass="backgroundColor" stylesheets="@customerStyle.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sau.bankingmanagement.controller.CustomerController">
    <children>
       <Label layoutX="107.0" layoutY="76.0" text="Customer Id:" />
       <Label layoutX="107.0" layoutY="124.0" text="Name:" />

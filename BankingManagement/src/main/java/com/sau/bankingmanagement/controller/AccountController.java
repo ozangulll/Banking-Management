@@ -1,18 +1,16 @@
 package com.sau.bankingmanagement.controller;
 
-import javafx.scene.control.Alert;
-import javafx.scene.control.Alert.AlertType;
-import com.example.dimsproject.repository.AccountRepository;
-import com.sau.bankingmanagement.repository.CustomerRepository;
+import com.sau.bankingmanagement.repository.AccountRepository;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import model.Account;
-import model.Customer;
 
 import java.sql.SQLException;
 
