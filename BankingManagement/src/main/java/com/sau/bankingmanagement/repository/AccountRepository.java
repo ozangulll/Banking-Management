@@ -1,15 +1,8 @@
 package com.sau.bankingmanagement.repository;
-import com.sau.bankingmanagement.controller.AccountController;
-import com.sau.bankingmanagement.controller.CustomerController;
 
 import model.Account;
 
-
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class AccountRepository {
     private static final String URL = "jdbc:mysql://localhost:3306/bankingmanagement";
@@ -60,12 +53,12 @@ public class AccountRepository {
         }
     }
     public void updateAccount(Account account) throws SQLException {
-        Connection connection= getConnection();
-        String sql="UPDATE accounts set branch=?,balance =? where id=?";
-        PreparedStatement preparedStatement=connection.prepareStatement(sql);
-        preparedStatement.setInt(1,account.getAccountId());
-        preparedStatement.setString(2,account.getBranch());
-        preparedStatement.setInt(3, account.getBalance());
+        Connection connection = getConnection();
+        String sql = "UPDATE accounts SET branch=?, balance=? WHERE id=?";
+        PreparedStatement preparedStatement = connection.prepareStatement(sql);
+        preparedStatement.setString(1, account.getBranch());
+        preparedStatement.setInt(2, account.getBalance());
+        preparedStatement.setInt(3, account.getAccountId());
         preparedStatement.executeUpdate();
         connection.close();
     }
@@ -87,4 +80,5 @@ public class AccountRepository {
             return false;
         }
     }
+
 }
