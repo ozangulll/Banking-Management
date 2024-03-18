@@ -39,8 +39,10 @@ The project consists of the following components:
 
 - **JavaFX:** Used for building the graphical user interface.
 - **MySQL:** Used as the database management system to store customer and account information.
-
-
+  
+# Contributors
+https://github.com/ozangulll
+https://github.com/munevvernure
 ## How to Run
 
 1. Clone the project repository.
