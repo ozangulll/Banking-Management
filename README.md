@@ -42,6 +42,7 @@ The project consists of the following components:
   
 # Contributors
 https://github.com/ozangulll
+
 https://github.com/munevvernure
 ## How to Run
 
